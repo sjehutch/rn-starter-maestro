@@ -1,0 +1,51 @@
+# Expo
+.expo/
+web-build/
+.expo-shared/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+*.log
+*.log.*
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Env files
+.env
+.env.*
+
+# Maestro artifacts
+maestro-debug/
+.maestro/
+
+# Android
+android/.gradle/
+android/.idea/
+android/.project
+android/.settings/
+android/build/
+android/app/build/
+android/app/*.keystore
+android/app/*.jks
+android/local.properties
+
+# iOS
+ios/Pods/
+ios/build/
+ios/.idea/
+ios/*.xcworkspace
+ios/*.xcuserstate

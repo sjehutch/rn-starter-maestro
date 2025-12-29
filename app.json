@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "rn-starter",
+    "slug": "rn-starter",
+    "scheme": "myapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": ["expo-router"],
+
+    "ios": {
+      "bundleIdentifier": "com.scott.rnstarter"
+    },
+    "android": {
+      "package": "com.scott.rnstarter"
+    }
+  }
+}
