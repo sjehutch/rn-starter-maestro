@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
+    "start:clear": "expo start -c",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "maestro:android": "maestro test .maestro",
     "maestro:test": "./scripts/maestro.sh",
-    "typecheck": "tsc --noEmit",
-    "android": "expo run:android",
-    "ios": "expo run:ios"
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "android": "expo start --android",
+    "android:device": "expo start --android",
+    "ios": "expo start --ios"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
